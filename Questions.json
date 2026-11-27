@@ -1,0 +1,46 @@
+[
+  {
+    "Text": "Какой цвет получается при смешивании синего и жёлтого?",
+    "Level": 1,
+    "Answers": [
+      {
+        "Text": "Зелёный",
+        "IsCorrect": true
+      },
+      {
+        "Text": "Красный",
+        "IsCorrect": false
+      },
+      {
+        "Text": "Фиолетовый",
+        "IsCorrect": false
+      },
+      {
+        "Text": "Оранжевый",
+        "IsCorrect": false
+      }
+    ]
+  },
+  {
+    "Text": "Какой из этих органов человеческого тела НЕ относится к пищеварительной системе?",
+    "Level": 2,
+    "Answers": [
+      {
+        "Text": "Печень",
+        "IsCorrect": false
+      },
+      {
+        "Text": "Поджелудочная железа",
+        "IsCorrect": false
+      },
+      {
+        "Text": "Селезёнка",
+        "IsCorrect": true
+      },
+      {
+        "Text": "Желудок",
+        "IsCorrect": false
+      }
+    ]
+  }
+]

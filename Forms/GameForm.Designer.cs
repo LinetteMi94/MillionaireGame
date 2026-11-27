@@ -32,7 +32,15 @@ partial class GameForm
     private void InitializeComponent()
     {
         System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GameForm));
+        textBox_Answer = new System.Windows.Forms.TextBox();
         SuspendLayout();
+        // 
+        // textBox_Answer
+        // 
+        textBox_Answer.Location = new System.Drawing.Point(145, 197);
+        textBox_Answer.Name = "textBox_Answer";
+        textBox_Answer.Size = new System.Drawing.Size(422, 27);
+        textBox_Answer.TabIndex = 0;
         // 
         // GameForm
         // 
@@ -40,9 +48,14 @@ partial class GameForm
         AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
         BackgroundImage = ((System.Drawing.Image)resources.GetObject("$this.BackgroundImage"));
         ClientSize = new System.Drawing.Size(800, 450);
+        Controls.Add(textBox_Answer);
         Text = "Игра \"Кто хочет стать миллионером\"";
+        Load += GameForm_Load;
         ResumeLayout(false);
+        PerformLayout();
     }
+
+    private System.Windows.Forms.TextBox textBox_Answer;
 
     #endregion
 }
